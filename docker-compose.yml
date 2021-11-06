@@ -20,3 +20,5 @@ services:
 networks:
   global-network:
     external: true
+
+    /var/www/acd-management-v2/acd-front-v2/
