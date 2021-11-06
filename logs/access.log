@@ -11,3 +11,8 @@
 172.20.0.1 - - [06/Nov/2021:14:25:19 +0000] "GET /index.php HTTP/1.1" 405 158 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:93.0) Gecko/20100101 Firefox/93.0" "-"
 172.20.0.1 - - [06/Nov/2021:14:25:29 +0000] "GET / HTTP/1.1" 200 91 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:93.0) Gecko/20100101 Firefox/93.0" "-"
 172.20.0.1 - - [06/Nov/2021:14:25:36 +0000] "GET /customers HTTP/1.1" 200 290153 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:93.0) Gecko/20100101 Firefox/93.0" "-"
+172.20.0.1 - - [06/Nov/2021:14:33:08 +0000] "GET /customers HTTP/1.1" 404 27 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:93.0) Gecko/20100101 Firefox/93.0" "-"
+172.20.0.1 - - [06/Nov/2021:14:33:08 +0000] "GET /favicon.ico HTTP/1.1" 404 27 "http://api.acd-management-v2.localhost:8080/customers" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:93.0) Gecko/20100101 Firefox/93.0" "-"
+172.20.0.1 - - [06/Nov/2021:14:36:14 +0000] "GET /customers HTTP/1.1" 502 150 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:93.0) Gecko/20100101 Firefox/93.0" "-"
+172.20.0.1 - - [06/Nov/2021:14:36:14 +0000] "GET /favicon.ico HTTP/1.1" 502 150 "http://api.acd-management-v2.localhost:8080/customers" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:93.0) Gecko/20100101 Firefox/93.0" "-"
+172.20.0.1 - - [06/Nov/2021:14:36:47 +0000] "GET /customers HTTP/1.1" 200 290177 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:93.0) Gecko/20100101 Firefox/93.0" "-"
