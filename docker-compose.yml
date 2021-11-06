@@ -1,0 +1,18 @@
+version: "3.8"
+
+services:
+  # Nginx service
+  nginx:
+    image: nginx:alpine
+    container_name: nginx
+    ports:
+      - 8080:80
+    volumes:
+      - ./nginx/conf.d/:/etc/nginx/conf.d/
+      - ./nginx/sites-available:/etc/nginx/sites-available
+      - ./logs:/var/log/nginx
+    networks:
+      - global-network
+networks:
+  global-network:
+    external: true
