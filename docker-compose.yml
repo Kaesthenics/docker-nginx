@@ -11,8 +11,13 @@ services:
       - ./nginx/conf.d/:/etc/nginx/conf.d/
       - ./nginx/sites-available:/etc/nginx/sites-available
       - ./logs:/var/log/nginx
+      - ~/Desktop/ACD/acd-front:/var/www/acd-management/acd-front/
+      - ~/Desktop/ACD/acd-front-final:/var/www/acd-management-v2/acd-front-final
     networks:
       - global-network
+    expose:
+      - "80"
+
 networks:
   global-network:
     external: true
